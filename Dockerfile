@@ -1,4 +1,4 @@
-FROM python:3.8-slim-buster
+FROM quay.io/blueshoe/python3.9-slim:latest
 
 COPY . /src
 
